@@ -15,7 +15,7 @@
   "main": "./index.js",
   "scripts": {},
   "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-flat-config-utils": "^0.2.5",
