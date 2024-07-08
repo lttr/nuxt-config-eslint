@@ -1,22 +1,15 @@
 {
-  "name": "my-nuxt-layer",
+  "name": "@lttr/nuxt-config-eslint",
   "type": "module",
   "version": "0.0.1",
-  "main": "./nuxt.config.ts",
-  "scripts": {
-    "dev": "nuxi dev .playground",
-    "dev:prepare": "nuxt prepare .playground",
-    "build": "nuxt build .playground",
-    "generate": "nuxt generate .playground",
-    "preview": "nuxt preview .playground",
-    "lint": "eslint ."
-  },
+  "main": "./index.js",
+  "scripts": {},
   "devDependencies": {
-    "@nuxt/eslint": "latest",
     "eslint": "^9.6.0",
-    "nuxt": "^3.12.3",
-    "typescript": "^5.5.3",
-    "vue": "latest"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-flat-config-utils": "^0.2.5",
+    "eslint-plugin-vue-scoped-css": "^2.8.1",
+    "eslint-plugin-vuejs-accessibility": "^2.3.1"
   },
   "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5"
 }
