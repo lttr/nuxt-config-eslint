@@ -24,7 +24,6 @@ export default wrapNuxtEslintConfig(withNuxt())
 ### Optional
 
 ```
-echo "dist" >> .eslintignore
 pnpm dlx add-npm-scripts 'lint' 'eslint'
 pnpm dlx add-npm-scripts 'lint:fix' 'eslint --fix'
 pnpm dlx format-package --write
