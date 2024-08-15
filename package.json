@@ -1,6 +1,6 @@
 {
   "name": "@lttr/nuxt-config-eslint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "An opinionated ESlint config for Nuxt apps",
   "license": "MIT",
   "repository": "github:lttr/nuxt-config-eslint",
