@@ -18,7 +18,7 @@
     "dev": "pnpx @eslint/config-inspector --config index.js",
     "release": "changelogen --release && pnpm publish && git push --follow-tags"
   },
-  "packageManager": "pnpm@9.5.0+sha256.dbdf5961c32909fb030595a9daa1dae720162e658609a8f92f2fa99835510ca5",
+  "packageManager": "pnpm@10.17.1",
   "dependencies": {
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
