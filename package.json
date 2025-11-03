@@ -20,13 +20,13 @@
   },
   "packageManager": "pnpm@10.17.1",
   "dependencies": {
-    "eslint": "^9.6.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-flat-config-utils": "^0.2.5",
-    "eslint-plugin-vue-scoped-css": "^2.8.1",
-    "eslint-plugin-vuejs-accessibility": "^2.3.1"
+    "eslint": "^9.39.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-flat-config-utils": "^2.1.4",
+    "eslint-plugin-vue-scoped-css": "^2.12.0",
+    "eslint-plugin-vuejs-accessibility": "^2.4.1"
   },
   "devDependencies": {
-    "changelogen": "^0.5.5"
+    "changelogen": "^0.6.2"
   }
 }
