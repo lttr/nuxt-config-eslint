@@ -33,6 +33,7 @@ export default [
       "vue/require-macro-variable-name": ["error"],
       "vue/require-typed-ref": ["error"],
       "vue/v-for-delimiter-style": ["error", "of"],
+      "vue/v-bind-style": ["error", "shorthand", { sameNameShorthand: "always" }],
     },
   },
 

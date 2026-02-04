@@ -19,6 +19,7 @@ Plus opinionated Vue rules:
 - `vue/component-name-in-template-casing` - PascalCase components
 - `vue/require-typed-ref` - typed ref() calls
 - `vue/v-for-delimiter-style` - enforce `of` over `in`
+- `vue/v-bind-style` - enforce `:foo` shorthand over `:foo="foo"`
 
 ## Usage
 
