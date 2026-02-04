@@ -2,6 +2,26 @@
 
 An opinionated Eslint config for Nuxt apps.
 
+## What's included
+
+This config is designed to extend `@nuxt/eslint` module which already provides:
+
+- `vue/essential` - error prevention rules
+- `vue/strongly-recommended` - readability rules
+- `vue/recommended` - community conventions
+
+This package adds opinionated rules on top:
+
+- `vue/block-lang` - enforce TypeScript in script blocks
+- `vue/block-order` - enforce template/script/style order
+- `vue/component-api-style` - enforce `<script setup>`
+- `vue/define-props-declaration` - enforce type-based props
+- `vue/v-for-delimiter-style` - enforce `of` over `in`
+- `vue/component-name-in-template-casing` - PascalCase components
+- `vue/require-typed-ref` - typed ref() calls
+- `vue-scoped-css/recommended` - scoped CSS best practices
+- `vuejs-accessibility/recommended` - a11y rules
+
 ## Usage
 
 ### Installation
