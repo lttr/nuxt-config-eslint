@@ -4,23 +4,21 @@ An opinionated Eslint config for Nuxt apps.
 
 ## What's included
 
-This config is designed to extend `@nuxt/eslint` module which already provides:
+This config extends `@nuxt/eslint` module with additional packages:
 
-- `vue/essential` - error prevention rules
-- `vue/strongly-recommended` - readability rules
-- `vue/recommended` - community conventions
+- [eslint-plugin-vue-scoped-css](https://github.com/future-architect/eslint-plugin-vue-scoped-css) - scoped CSS best practices
+- [eslint-plugin-vuejs-accessibility](https://vue-a11y.github.io/eslint-plugin-vuejs-accessibility/) - a11y rules
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - disable rules conflicting with Prettier
 
-This package adds opinionated rules on top:
+Plus opinionated Vue rules:
 
 - `vue/block-lang` - enforce TypeScript in script blocks
 - `vue/block-order` - enforce template/script/style order
 - `vue/component-api-style` - enforce `<script setup>`
 - `vue/define-props-declaration` - enforce type-based props
-- `vue/v-for-delimiter-style` - enforce `of` over `in`
 - `vue/component-name-in-template-casing` - PascalCase components
 - `vue/require-typed-ref` - typed ref() calls
-- `vue-scoped-css/recommended` - scoped CSS best practices
-- `vuejs-accessibility/recommended` - a11y rules
+- `vue/v-for-delimiter-style` - enforce `of` over `in`
 
 ## Usage
 
