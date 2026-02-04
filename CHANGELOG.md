@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v0.4.1
+
+[compare changes](https://github.com/lttr/nuxt-config-eslint/compare/v0.4.0...v0.4.1)
+
+### 🚀 Enhancements
+
+- Add vue/v-bind-style rule ([a90323f](https://github.com/lttr/nuxt-config-eslint/commit/a90323f))
+
+### 📖 Documentation
+
+- Add "What's included" section to README ([08f7032](https://github.com/lttr/nuxt-config-eslint/commit/08f7032))
+- Clarify packages added on top of nuxt eslint ([ced45e8](https://github.com/lttr/nuxt-config-eslint/commit/ced45e8))
+
+### 🏡 Chore
+
+- Add .npmrc for public npm registry ([c1d72e7](https://github.com/lttr/nuxt-config-eslint/commit/c1d72e7))
+
+### ❤️ Contributors
+
+- Lukas Trumm <lukas.trumm@gmail.com>
+
 ## v0.4.0
 
 [compare changes](https://github.com/lttr/nuxt-config-eslint/compare/v0.3.0...v0.4.0)
