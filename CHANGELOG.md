@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.4.2
+
+[compare changes](https://github.com/lttr/nuxt-config-eslint/compare/v0.4.1...v0.4.2)
+
+### 🚀 Enhancements
+
+- Enforce props destructuring and scoped style ([875c635](https://github.com/lttr/nuxt-config-eslint/commit/875c635))
+
+### ❤️ Contributors
+
+- Lukas Trumm <lukas.trumm@gmail.com>
+
 ## v0.4.1
 
 [compare changes](https://github.com/lttr/nuxt-config-eslint/compare/v0.4.0...v0.4.1)
