@@ -24,6 +24,7 @@ export default [
       // is overengineering.
       // "vue/define-emits-declaration": ["error", "type-literal"],
       "vue/define-props-declaration": ["error", "type-based"],
+      "vue/define-props-destructuring": ["error"],
       "vue/html-comment-content-spacing": ["error", "always"],
       "vue/no-required-prop-with-default": ["error"],
       "vue/padding-line-between-blocks": ["error", "always"],
@@ -33,7 +34,11 @@ export default [
       "vue/require-macro-variable-name": ["error"],
       "vue/require-typed-ref": ["error"],
       "vue/v-for-delimiter-style": ["error", "of"],
-      "vue/v-bind-style": ["error", "shorthand", { sameNameShorthand: "always" }],
+      "vue/v-bind-style": [
+        "error",
+        "shorthand",
+        { sameNameShorthand: "always" },
+      ],
     },
   },
 
@@ -42,6 +47,12 @@ export default [
   ...pluginVueScopedCSS.configs["flat/recommended"].map((config) =>
     addMissingName("vue-scoped-css", config),
   ),
+  {
+    name: "vue-scoped-css/custom",
+    rules: {
+      "vue-scoped-css/enforce-style-type": ["error", { allows: ["scoped"] }],
+    },
+  },
 
   // eslint-plugin-vuejs-accessibility recommended rules
   // https://vue-a11y.github.io/eslint-plugin-vuejs-accessibility/
